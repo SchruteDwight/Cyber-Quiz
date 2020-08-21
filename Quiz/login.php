@@ -77,7 +77,7 @@ header("Location: home.php");
 	<div class="row">
 <div class="col-lg-4 col-md-6  img-fluid">
 	<div class="quiz-img">
-	<img src="img/signup.svg" alt="">
+	<img src="img/login-avatar-1.svg" alt="">
 	</div>
 </div>
 
