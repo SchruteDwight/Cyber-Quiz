@@ -80,7 +80,7 @@ header("Location: login.php");
 	<div class="row">
 <div class="col-lg-4 col-md-6  img-fluid">
 	<div class="quiz-img">
-	<img src="img/quiz-4.svg" alt="">
+	<img src="img/signup-avatar.svg" alt="">
 	</div>
 </div>
 	
