@@ -1,0 +1,176 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	margin: 0; padding: 0; box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+	background-image: url('../img/signup bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+
+}
+
+.navbar li a{
+	color: black;
+	font-size: 2.4rem;
+	padding-right: .2rem;
+}
+
+.navbar a{
+	color: black;
+}
+
+.navbar-brand{
+	font-size: 3.8rem;
+}
+
+.navbar-toggler{
+	font-size: 1.5rem;
+	color: black;
+}
+
+.main{
+	
+	width: 100%;
+
+	height: 100vh;
+	display: flex;
+	color: black;
+	align-items: center;
+	justify-content: center;
+	
+}
+.quiz-img img{
+	width: 100%;
+	margin: 6rem;
+}
+
+.signup-main{
+	display: flex;
+	color: black;
+	align-items: center;
+	justify-content: center;
+}
+
+.signupbox
+{
+color: black;
+text-align: center;
+padding: 0.6rem 0.8rem;
+
+
+}
+
+.signupbox h1
+{
+	width: fit-content;	
+	border-bottom: 0.2rem solid #3a6f3a;
+    font-size: 4.8rem;
+    margin-bottom: 15%;
+    padding: 0.5rem 0rem;
+    text-align: center;
+    
+}
+
+.s_textbox
+{
+	   width: 100%;
+	overflow: hidden;
+	font-size: 2rem;
+	padding: 0.5rem 0;
+	margin: 0.5rem 0;
+	display: flex;
+
+	    
+}
+.s_textbox input{
+	border: none;
+    outline: none;
+    background: none;
+    color: black;
+    width: auto;
+    font-size: 2.7rem;
+    float: left;
+    margin: .5rem .5rem;
+    padding-bottom: .8rem;
+    border-bottom: .2rem solid #978a8a87;
+}
+
+
+.s_textbox input:focus{
+  	border-bottom: .2rem solid #3a6f3a;
+  }
+
+
+.s_textbox i{
+	     font-size: 2.5rem;
+    width: 3rem;
+    text-align: center;
+    position: relative;
+    top: .1rem;
+    right: 0rem;
+    float: left;
+    padding: .8rem .1rem;
+    margin: 0rem 0rem;
+}
+.btn_signup{
+		width: 80%;
+    background-image: linear-gradient(to right, #960091cf, #3d56d0d9, #960091cf);
+    background-size: 200%;
+    border: .12rem solid #000000;
+    padding: .2rem;
+    background-size: 200%;
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin: 1.2rem 0;
+    border-radius: 1rem;
+    justify-content: center;
+	transition:cubic-bezier(0.46, 0.03, 0.52, 0.96) all 0.5s;
+
+}
+
+.btn_signup:hover{
+	background-position: center right;
+	
+	
+}
+
+#error_message{
+	font-size: 2rem;
+}
+
+@media(max-width: 998px)
+{
+	html
+	{
+		font-size: 58%;
+	}
+}
+
+@media(max-width: 768px)
+{
+	html
+	{
+		font-size: 55%;
+	}
+	.navbar {
+    background-color: rgba(0,0,0,0.1);
+    
+}
+
+.img-fluid{
+		display: none;
+	}
+}
+@media(max-width: 350px)
+{
+	html{
+		font-size: 48%;
+	}
+}
