@@ -1,5 +1,5 @@
 # Cyber-Quiz
-Updated by owner
+Updated again by owner
 Use html files to view them
 php files are connected to database..
 Database Name: quiz
